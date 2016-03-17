@@ -1,0 +1,66 @@
+
+#thumbdefault {
+    display: none;
+}
+.file-upload {
+}
+.file-upload > ul.thumb {
+    list-style: none outside none;
+    padding: 0;
+}
+.file-upload > ul.thumb li.item {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.file-upload > ul.thumb li.item div.thumb-url {
+    display: block;
+    position: relative;
+}
+.file-upload > ul.thumb.sortable li.item div.thumb-url {
+    cursor: move;
+}
+.file-upload > ul.thumb li.item div.thumb-url .img-thumbnail{
+    border: medium none;
+    border-radius: 0 0 0 0;
+    padding: 0;
+}
+.file-upload > ul.thumb li.item .title {
+    color: #333333;
+    font-weight: bold;
+    height: 42px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.file-upload > ul.thumb li.item:hover .del-file {
+    display: inline-block;
+}
+.file-upload > ul.thumb li.item img.img-rounded {
+    border-radius: 16px 16px 16px 16px;
+}
+.file-upload > ul.thumb li.item .del-file {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #333333;
+    display: none;
+    margin: 0;
+    opacity: 0.75;
+    padding: 6px 10px 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.file-upload > ul.thumb li.item:last-child .fileinput-button {
+    left: 50%;
+    margin: -14px 0 0 -16px;
+    padding: 6px 9px 2px 11px;
+    position: absolute;
+    top: 50%;
+}
+.file-upload > ul.thumb li.item:last-child .progress {
+}
